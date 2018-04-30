@@ -1,0 +1,85 @@
+#footer {
+background: $color-primary;
+padding: 2rem 0;
+&-list {
+  list-style: none;
+  &-a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    line-height: 3rem;
+    font-weight: 400;
+    color: $color-four;
+  }
+  &-a:hover {
+    color: $color-yellow;
+  }
+}
+&-contact {
+  font-size: 1.4rem;
+    line-height: 3rem;
+    font-weight: 400;
+    color: $color-four;
+}
+&-phone {
+  font-size: 1.6rem;
+    line-height: 3rem;
+    font-weight: 300;
+    color: $color-secondary;
+    &-number {
+      color: #fff;
+      font-weight: 600;
+    }
+}
+&-btn {
+  border: 1px solid $color-yellow;
+  background: $color-yellow;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 1rem 0.8rem;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  transition: all 0.5s;
+}
+&-btn:hover {
+  background: $color-primary;
+}
+&-input {
+  font-size: 1.4rem;
+  padding: 1rem 0.8rem;
+  color: $color-secondary;
+  border: none;
+}
+&-icon {
+  padding: 1rem 0.8rem;
+  color: $color-four;
+  background: #fff;
+  font-size: 2rem;
+}
+&-copy {
+      float: left;
+      font-size: 1.4rem;
+      line-height: 3rem;
+      font-weight: 400;
+      color: $color-four;
+    &-brand {
+      color: #fff;
+      font-weight: 600;
+    }
+}
+&-pay {
+  
+  float: right;
+  list-style: none;
+  li {
+    display: inline;
+    padding: 0 0.5rem;
+  }
+}
+&-box {
+  border-top: 1px solid $color-four;
+  padding-top: 2rem;
+}
+}

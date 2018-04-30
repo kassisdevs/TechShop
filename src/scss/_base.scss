@@ -1,0 +1,38 @@
+// COLOR VARIABLES
+$color-primary: #222;
+$color-secondary: #666;
+$color-third: #555;
+$color-four: #aaa;
+$color-five: #333;
+$color-grey-light: #f7f7f7;
+$color-yellow: #fed700;
+$color-RED: #e5534c;
+
+// FONT VARIABLES
+$font-primary: 'Open Sans', sans-serif;
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 10px = 1rem
+
+}
+
+body {
+    font-family: $font-primary;
+    color: $color-primary;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+// .overlay-section {
+//   background: rgba(0, 0, 0, 0.6);
+// }

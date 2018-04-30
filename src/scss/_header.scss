@@ -1,0 +1,82 @@
+#header {
+  background: $color-yellow;
+  padding-top: 10rem;
+  &-search-cat {
+    padding: 1.3rem 2rem;
+    color: $color-four;
+    font-size: 1.3rem;
+    background-color: #fff;
+    border: 1px solid #fff;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    border-top-left-radius: 5rem;
+    border-bottom-left-radius: 5rem;
+  }
+  &-search {
+    color: $color-four;
+    font-size: 1.3rem;
+    padding: 1.3rem 2.9rem;
+    border: 1px solid #fff;
+    border-left: 1px solid $color-grey-light;
+    border-radius: 0;
+  }
+  &-search-icon {
+    padding: 1.3rem 1.4rem;
+    color: $color-four;
+    font-size: 2rem;
+    background-color: #fff;
+    border: 1px solid #fff;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0px;
+    border-top-right-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+  }
+  &-search-icon:hover {
+    color: $color-yellow;
+  }
+  &-contact-icon {
+    font-size: 3rem;
+    color: $color-primary;
+    margin-right: 1rem;
+  }
+  &-contact-email {
+    font-size: 1.2rem;
+  }
+  &-shop-icon {
+    font-size: 3rem;
+    color: $color-primary;
+  }
+  &-shop-count {
+    color: $color-yellow;
+    background-color: #fff;
+    border-radius: 100%;
+    padding: 5px 5px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-left: -1.8rem;
+    margin-bottom: 2rem;
+  }
+  &-shop-total {
+  color: $color-primary;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-left: 1rem;
+  }
+  &-list {
+    border-top: 1px solid $color-five;
+    margin-top: 4rem;
+    padding-top: 2rem;
+    list-style: none;
+    &-a {
+      padding-left: 0.5rem;
+      font-size: 1.3rem;
+      text-transform: uppercase;
+      color: $color-five;
+      font-weight: 400;
+    }
+    li {
+      display: inline;
+      padding-right: 0.7rem;
+    }
+  }
+}

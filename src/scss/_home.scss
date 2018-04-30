@@ -1,0 +1,71 @@
+#home {
+  margin: 3rem 0;
+  &-box1 {
+    background-color: #fdfdfd;
+    padding: 1rem;
+  }
+  &-content {
+    margin-top: 8rem;
+    &-type {
+      text-transform: uppercase;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+    &-text {
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: $color-four;
+    }
+    &-price {
+      color: $color-RED;
+      font-size: 3rem;
+      font-weight: 700;
+    }
+    &-btn {
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: #fff;
+      background: $color-yellow;
+      padding: 1rem 2.5rem;
+      border: 1px solid $color-yellow;
+      transition: all 0.5s;
+    }
+    
+  }
+  &-content-img {
+    width: 40rem;
+    height: 37rem;
+    margin-right: 10rem;
+  }
+  &-offer {
+    background: #fdfdfd;
+    padding: 1rem;
+    &-content {
+      margin-top: 3rem;
+      margin-left: 0.6rem;
+      &-des {
+        color: $color-four;
+        font-size: 1.1rem;
+        font-weight: 300;
+      }
+      &-a {
+        border-bottom: 1px solid $color-secondary;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $color-secondary;
+        font-size: 1.3rem;
+        font-weight: 300;
+      }
+      &-a:hover {
+        color: $color-yellow;
+        border-bottom: 1px solid $color-yellow;
+      }
+    }
+    &-img {
+      width: 11rem;
+      height: 11rem;
+    }
+  }
+}

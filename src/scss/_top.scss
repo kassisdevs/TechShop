@@ -1,0 +1,27 @@
+#top {
+  padding: 3rem 0;
+  &-content {
+    background: #fdfdfd;
+    padding: 1rem 0;
+    &-img {
+      width: 10rem;
+      height: 10rem;
+    }
+    &-box {
+      margin-left: 2rem;
+    }
+    &-a {
+      text-decoration: none;
+      font-size: 1.5rem;
+      color: $color-secondary;
+    }
+    &-a:hover {
+      color: $color-yellow;
+    }
+    &-price {
+      display: block;
+      font-size: 1.8rem;
+      font-weight: 600;
+    }
+  }
+}

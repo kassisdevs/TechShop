@@ -1,0 +1,58 @@
+#deal {
+   &-offer {
+     background: #fdfdfd;
+     padding: 1rem;
+    &-img {
+      margin-top: 3rem;
+      width: 10rem;
+      height: 8rem;
+    }
+     &-content {
+       margin-left: 5rem;
+       &-icon {
+         font-size: 1.4rem;
+         color: $color-yellow;
+         padding: 0 0.1rem;
+       }
+       &-review {
+         margin: 0 1rem;
+         font-size: 1.4rem;
+         color: $color-four;
+       }
+       &-title {
+        font-size: 1.6rem;
+        color: $color-secondary;
+        font-weight: 600;
+      }
+      &-price {
+        margin-right: 1rem;
+        font-size: 1.5rem;
+        color: $color-four;
+        font-weight: 600;
+        text-decoration: line-through;
+      }
+      &-discount {
+        font-size: 2.5rem;
+        color: $color-RED;
+        font-weight: 600;
+      }
+      &-btn {
+        margin-top: 2rem;
+      display: block;
+      text-transform: uppercase;
+      font-size: 1.4rem;
+      font-weight: 300;
+      color: #fff;
+      background: $color-yellow;
+      padding: 0.8rem 1.4rem;
+      border: 1px solid $color-yellow;
+      transition: all 0.5s;
+      }
+      &-btn:hover {
+        color: $color-yellow;
+        background: #fff;
+      }
+      
+     }
+   }
+}

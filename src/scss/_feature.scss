@@ -1,0 +1,10 @@
+#feature {
+  .feature-price {
+    border: 1px solid $color-RED;
+    background-color: $color-RED;
+  }
+  .feature-price:hover {
+    background: #fff;
+    color: $color-primary;
+  }
+}
